@@ -58,3 +58,58 @@ main .weights h2 {
   background-color: rgb(202, 193, 193);
   padding: 12px;
 }
+
+/* *********************************Media queries**************************************************** */
+@media only screen and (min-width: 350px) {
+  .weights .weight-summaries,
+  .current-summary div {
+    background-color: rgb(202, 193, 193);
+    padding: 16px;
+  }
+
+}
+
+@media only screen and (min-width: 500px) {
+  body.weights-details main {
+    padding: 20px 30px 30px 30px;
+  }
+  .weights .weight-summaries,
+  .current-summary div {
+    background-color: rgb(202, 193, 193);
+
+    padding: 30px;
+}
+
+}
+
+@media only screen and (min-width: 576px) {
+  body.weights-details main {
+    width: 500px;
+  }
+  .weights .weight-summaries,
+  .current-summary div {
+    background-color: rgb(202, 193, 193);
+    padding: 45px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  body.weights-details main {
+    width: 650px;
+  }
+  .weights .weight-summaries,
+  .current-summary div {
+    background-color: rgb(202, 193, 193);
+    padding: 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .weights .weight-summaries,
+  .current-summary div {
+    background-color: rgb(202, 193, 193);
+    padding: 70px;
+}
+
+}
