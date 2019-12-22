@@ -25,6 +25,23 @@ main .form-fields .label {
   margin-bottom: 5px;
 }
 
+.form-input input {
+  width: 100%;
+}
+
+/* *********************************Media queries**************************************************** */
+@media only screen and (min-width: 400px) {
+  main {
+    width: 309px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 500px) {
+  main {
+    width: 411px;
+  }
+}
+
 /* *******************************css for weight details page*************************************** */
 main .weights h2 {
   font-size: 1em;
