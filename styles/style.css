@@ -10,6 +10,9 @@ main {
   background-color: rgb(219, 214, 214);
 }
 
+body.weights-details main {
+  padding: 20px 10px 30px 10px;
+}
 main h1 {
   font-size: 1.5em;
 }
@@ -20,4 +23,21 @@ main .form-fields {
 
 main .form-fields .label {
   margin-bottom: 5px;
+}
+
+/* *******************************css for weight details page*************************************** */
+main .weights h2 {
+  font-size: 1em;
+}
+
+.weights, .current-summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.weights .weight-summaries,
+.current-summary div {
+  background-color: rgb(202, 193, 193);
+  padding: 12px;
 }
