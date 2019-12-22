@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="weight tracker app">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <header>
@@ -13,28 +14,75 @@
     <main>
       <article>
         <form action="">
-          <div>
-            <label for="username">Name</label>
-            <input type="text" name="username" id="username">
+          <div class="form-fields">
+            <div class="label">
+              <label for="username">Name</label>
+            </div>
+            <div class="form-input">
+              <input type="text" name="username" id="username">
+            </div>
           </div>
-          <div>
-            <label for="date-of-birth">Date of Birth</label>
-            <input type="date" id="date-of-birth">
+          <div class="form-fields">
+            <div class="label">
+              <label for="date-of-birth">Date of Birth</label>
+            </div>
+            <div class="form-input">
+              <input type="date" id="date-of-birth">
+            </div>
           </div>
-          <div>
-            <label for="height">Height(cm)</label>
-            <input type="tel" id="height" name="height">
+          <div class="form-fields">
+            <div class="label">
+              <label for="height">Height(cm)</label>
+            </div>
+            <div class="form-input">
+              <input type="tel" id="height" name="height">
+            </div>
           </div>
-          <div>
-            <p>Gender</p>
-            <label for="gender">Male</label>
-            <input type="radio" id="gender" name="gender" value="male">
+          <fieldset class="form-fields">
+            <legend>Gender</legend>
+            <div class="form-input">
+              <input type="radio" id="gender" name="gender" value="male">
+              <label for="gender">Male</label>
+            </div>
+            <div class="form-input">
+              <input type="radio" id="gender" name="gender" value="female">
+              <label for="gender">Female</label>
+            </div>
+          </fieldset>
+          <div class="form-fields">
+            <div class="label">
+              <label for="initial-weight">Initial weight(kg)</label>
+            </div>
+            <div class="form-input">
+              <input type="tel" id="initial-weight" name="target-weight">
+            </div>
           </div>
-          <div>
-            <label for="gender">Female</label>
-            <input type="radio" id="gender" name="gender" value="female">
+          <div class="form-fields">
+              <div class="label">
+                <label for="target-weight">Target weight(kg)</label>
+              </div>
+              <div class="form-input">
+                <input type="tel" id="target-weight" name="target-weight">
+              </div>
+            </div>
+          <div class="form-fields">
+            <div class="label">
+              <label for="start-date">Start date</label>
+            </div>
+            <div class="form-input">
+              <input type="date" id="start-date" name="start-date">
+            </div>
           </div>
-          <button type="submit"></button>
+          <div class="form-fields">
+            <div class="label">
+              <label for="target-date">Target date</label>
+            </div>
+            <div class="form-input">
+              <input type="date" id="target-date" name="target-date">
+            </div>
+          </div>
+          
+          <button type="submit">Save</button>
         </form>
       </article>
     </main>
