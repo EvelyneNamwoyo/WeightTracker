@@ -12,6 +12,8 @@ main {
 
 body.weights-details main {
   padding: 20px 10px 30px 10px;
+  background: linear-gradient(45deg,
+     rgb(219, 214, 214), rgb(165, 144, 144),  rgb(114, 124, 110));
 }
 main h1 {
   font-size: 1.5em;
