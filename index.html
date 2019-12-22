@@ -7,8 +7,37 @@
     <meta name="description" content="weight tracker app">
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <h1>Create a profile</h1>
+    </header>
+    <main>
+      <article>
+        <form action="">
+          <div>
+            <label for="username">Name</label>
+            <input type="text" name="username" id="username">
+          </div>
+          <div>
+            <label for="date-of-birth">Date of Birth</label>
+            <input type="date" id="date-of-birth">
+          </div>
+          <div>
+            <label for="height">Height(cm)</label>
+            <input type="tel" id="height" name="height">
+          </div>
+          <div>
+            <p>Gender</p>
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="gender" value="male">
+          </div>
+          <div>
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="gender" value="female">
+          </div>
+          <button type="submit"></button>
+        </form>
+      </article>
+    </main>
     <footer></footer>
   </body>
 </html>
