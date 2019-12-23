@@ -126,22 +126,17 @@ main .form-fields .label {
 }
 
 
-.create-user .cancel-button {
-  margin-left: 48px;
+.buttons .cancel-button ,
+.buttons .save-button {
+  margin-bottom: 10px;
+}
+
+.buttons .cancel-button button ,
+.buttons .save-button button {
+  width: 100%;
 }
 
 /* *********************************Media queries**************************************************** */
-@media only screen and (min-width: 365px) {
-  .create-user .cancel-button {
-    margin-left: 120px;
-  }
-}
-
-@media only screen and (min-width: 381px) {
-  .create-user .cancel-button {
-    margin-left: 137px;
-  }
-}
 
 @media only screen and (min-width: 400px) {
   header ul {
@@ -153,9 +148,6 @@ main .form-fields .label {
     margin: 0 auto;
   }
 
-  .create-user .cancel-button {
-    margin-left: 155px;
-  }
 }
 
 @media only screen and (min-width: 500px) {
@@ -163,8 +155,9 @@ main .form-fields .label {
     width: 411px;
   }
 
-  .create-user .cancel-button {
-    margin-left: 257px;
+  .create-user .buttons {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
