@@ -1,19 +1,84 @@
 html, body {
   background-color: grey;
 }
+
+/* *****************************css for header*************************************** */
 header {
+  width: 50%;
+  margin: 0 auto;
   text-align: center;
+  background: linear-gradient(45deg,
+     rgb(219, 214, 214), rgb(165, 144, 144),  rgb(114, 124, 110));
+  padding: 10px 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+header .new-weight {
+  position: absolute;
+  top: 0;
+  height: 400px;
+  width: 1px;
+  z-index: -9999;
+  opacity: 0;
+  transition: all 3s ease-in;
+  
+}
+
+header.add-weight .new-weight {
+  left: 0;
+  z-index: 9999;
+  width: 80%;
+  background-color: rgb(170, 165, 165);
+  opacity: 1;
+
+}
+
+header .add,
+.settings {
+  cursor: pointer;
+  position: absolute;
+}
+
+div.new-weight .form-input {
+  width: 50%;
+  margin: 0 auto;
+}
+
+div.new-weight .form-fields {
+  margin-bottom: 30px;
+}
+
+div.new-weight .label {
+  margin-bottom: 10px;
+}
+
+div.new-weight p {
+  font-weight: bold;
+}
+
+header ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+header .add {
+  left: 20px;
+}
+
+header .settings {
+  right: 20px;
 }
 
 main {
   padding: 20px 30px 30px 30px;
-  background-color: rgb(219, 214, 214);
+  background: linear-gradient(45deg,
+     rgb(219, 214, 214), rgb(165, 144, 144),  rgb(114, 124, 110));
 }
 
 body.weights-details main {
   padding: 20px 10px 30px 10px;
-  background: linear-gradient(45deg,
-     rgb(219, 214, 214), rgb(165, 144, 144),  rgb(114, 124, 110));
+  
 }
 main h1 {
   font-size: 1.5em;
