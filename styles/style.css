@@ -1,6 +1,5 @@
 html, body {
   background-color: grey;
-  font-size: 20px;
 }
 
 /* *****************************css for header*************************************** */
@@ -118,6 +117,10 @@ main .form-fields .label {
 
 /* *********************************Media queries**************************************************** */
 @media only screen and (min-width: 400px) {
+  header ul {
+    padding: 0;
+  }
+  
   main {
     width: 309px;
     margin: 0 auto;
@@ -148,6 +151,15 @@ main .weights h2 {
 }
 
 /* *********************************Media queries**************************************************** */
+@media only screen and (max-width: 318px) {
+  .weights .weight-summaries,
+  .current-summary div {
+    padding: 8px 32px;
+    margin-bottom: 10px;
+  }
+
+}
+
 @media only screen and (min-width: 350px) {
   .weights .weight-summaries,
   .current-summary div {
@@ -194,6 +206,9 @@ main .weights h2 {
 }
 
 @media only screen and (min-width: 992px) {
+  header {
+    width: 80%;
+  }
   .weights .weight-summaries,
   .current-summary div {
     background-color: rgb(202, 193, 193);
