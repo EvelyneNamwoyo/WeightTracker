@@ -6,17 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="weight tracker app">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/script.js"></script>
   </head>
   <body class="weights-details">
     <header>
+      <span class="add">+Add</span>
+      <span class="settings">Settings</span>
+
+      <div class="new-weight">
+        <article>
+          <p>Enter new weight</p>
+          <form action="">
+            <div class="form-fields">
+              <div class="label">
+                <label for="new date">Date</label>
+              </div>
+              <div class="form-input">
+                <input type="date" id="date-of-birth">
+              </div>
+            </div>
+            <div class="form-fields">
+              <div class="label">
+                <label for="weight">Weight(kg)</label>
+              </div>
+              <div class="form-input">
+                <input type="tel" id="weight" name="weight">
+              </div>
+            </div>
+            <button type="submit">Save</button>
+          </form>
+        </article>
+      </div>
       <ul>
         <li>
-          <a href="./details.html">Details</a>
+          <a href="#">Details</a>
         </li>
         <li>
           <a href="#">Statistics</a>
         </li>
       </ul>
+      
     </header>
     <main>
       <h1>Eve's details</h1>
