@@ -131,6 +131,12 @@ main .form-fields .label {
 }
 
 /* *********************************Media queries**************************************************** */
+@media only screen and (min-width: 365px) {
+  .create-user .cancel-button {
+    margin-left: 124px;
+  }
+}
+
 @media only screen and (min-width: 381px) {
   .create-user .cancel-button {
     margin-left: 137px;
