@@ -127,10 +127,16 @@ main .form-fields .label {
 
 
 .create-user .cancel-button {
-  margin-left: 257px;
+  margin-left: 48px;
 }
 
 /* *********************************Media queries**************************************************** */
+@media only screen and (min-width: 381px) {
+  .create-user .cancel-button {
+    margin-left: 137px;
+  }
+}
+
 @media only screen and (min-width: 400px) {
   header ul {
     padding: 0;
@@ -140,10 +146,19 @@ main .form-fields .label {
     width: 309px;
     margin: 0 auto;
   }
+
+  .create-user .cancel-button {
+    margin-left: 155px;
+  }
 }
+
 @media only screen and (min-width: 500px) {
   main {
     width: 411px;
+  }
+
+  .create-user .cancel-button {
+    margin-left: 257px;
   }
 }
 
