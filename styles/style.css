@@ -94,7 +94,7 @@ main {
 }
 
 button {
-  font-size: 18px;
+  font-size: 16px;
   border-style: solid;
   border-radius: 4px;
   cursor: pointer;
@@ -125,6 +125,20 @@ main .form-fields .label {
   height: 25px;
 }
 
+ fieldset .form-input label {
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.form-input input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+fieldset .form-input {
+  margin-bottom: 10px;
+}
 
 .buttons .cancel-button ,
 .buttons .save-button {
