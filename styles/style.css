@@ -57,6 +57,13 @@ div.new-weight .label {
 div.new-weight p {
   font-weight: bold;
 }
+
+.cancel-new-weight {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+
 header ul {
   padding: 20px 0;
 }
@@ -86,6 +93,12 @@ main {
      rgb(219, 214, 214), rgb(165, 144, 144),  rgb(114, 124, 110));
 }
 
+button {
+  font-size: 18px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
 body.weights-details main {
   padding: 20px 10px 30px 10px;
   
@@ -111,9 +124,6 @@ main .form-fields .label {
   height: 25px;
 }
 
-.create-user button {
-  font-size: 18px;
-}
 
 .create-user .cancel-button {
   margin-left: 257px;
