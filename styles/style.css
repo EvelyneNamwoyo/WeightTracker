@@ -107,12 +107,16 @@ main .form-fields .label {
 }
 
 .form-input input:not([type="radio"]) {
-  width: 100%;
+  width: 98.5%;
   height: 25px;
 }
 
 .create-user button {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.create-user .cancel-button {
+  margin-left: 257px;
 }
 
 /* *********************************Media queries**************************************************** */
